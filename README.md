@@ -16,3 +16,13 @@ Docker image: kopyl/a1111-tensorrt
 
 - NVIDIA driver: 535.104.12
 - CUDA driver: 11.8
+
+### When this can be useful:
+
+- When you reuse one or some set of Stable Diffusion models a lot (not suitable for one-time generation)
+- When you generate a lo of images for your videos (it's suitable cause when you save 1± second per image, it's a lot of time for like 2-3 minutes video)
+
+### How to contribute:
+
+- You can freeze current commit of repositories (A1111 and TensorRT extension)
+- You can add a serverless Dockerfile and a handler for Runpod
