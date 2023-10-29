@@ -4,6 +4,7 @@ Docker image: kopyl/a1111-tensorrt
 ### Features:
 
 - Speed of image generation is ≈75it/s
+- You can run it from [Runpod](https://runpod.io/gsc?template=lschv5bdvp&ref=0xwirw9o). [Video tutorial](https://youtu.be/2X6Z3Z4X6Z4)
 
 ### Requirements for Runpod:
 
